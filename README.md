@@ -4,7 +4,7 @@ CSC 4980 Assignment #2
 
 ### How to Run Programs:
 ###### The regular python file is `hasher.py`, simplified (bonus) file is `simplified_hasher.py`
-* Please note: the included programs utilize an additional library to `hashlib`, which is `time`, in order to time the length of the program. The `time` library comes built in to Python, so in order to install `time` Python must be installed.
+* Please note: the included programs utilize an additional library to `hashlib`, which is `time`, in order to time the length of the program. The `time` library comes built in to Python, so in order to install `time` Python must be installed. To use it, all that's required is including `import time` at the top of the code.
 
 ###### To run `hasher.py`:
 * Make sure you are in the `blockchain-hw-2` directory and run `python hasher.py`
@@ -28,7 +28,7 @@ CSC 4980 Assignment #2
 * **Actual password**: harib
 * **Salt value cracked**: slayer
 * The number of iterations it took `hasher.py` to decode the hash was 546373 and the time elapsed was 2.05584907532.
-* The number of iterations it took `simplified_hasher.py` to decode the hash was 546373 and the time elapsed was 1.73734498024.
+* The number of iterations it took `simplified_hasher.py` to decode the hash was 546372 and the time elapsed was 1.73734498024.
 
 
 

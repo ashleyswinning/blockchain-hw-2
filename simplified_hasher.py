@@ -1,6 +1,7 @@
 '''hasher.py: This program takes in a hash value and uses brute-force to decrypt a SHA-1 hash into a valid password.'''
 
-import hashlib, time as t
+import hashlib
+import time as t
 
 common_passwords = open('10-million-password-list-top-1000000.txt').read().splitlines()
 
