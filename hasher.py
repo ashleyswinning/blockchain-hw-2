@@ -24,6 +24,10 @@ def main():
             total_time = end - start
             print "The number of iterations it took to decode the hash was {} and the time elapsed was {}.".format(counter, total_time)
             exit()
+    
+    end = t.time()
+    total_time = end - start
+    print "Password not found! Total time elapsed {}.".format(total_time)
 
 
 def salt_hash(start, counter):
