@@ -1,4 +1,4 @@
-'''hasher.py: This program takes in a hash value and uses brute-force to decrypt a SHA-1 hash into a valid password.'''
+'''simplified_hasher.py: This program takes in a hash value and uses brute-force to decrypt a SHA-1 hash into a valid password.'''
 
 import hashlib
 import time as t
