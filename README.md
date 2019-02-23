@@ -21,7 +21,7 @@ CSC 4980 Assignment #2
 
 ###### Example 2: 801cdea58224c921c21fd2b183ff28ffa910ce31
 * **Actual password**: vjhtrhsvdctcegth
-* The number of iterations it took `hasher.py` to decode the hash was 999968 and the time elapsed was 1.71048903465.
+* The number of iterations it took `hasher.py` to decode the hash was 999968 and the time elapsed was 1.76777100563.
 * The number of iterations it took `simplified_hasher.py` decode the hash was 999968 and the time elapsed was 1.43165707588.
 
 ###### Example 3: ece4bb07f2580ed8b39aa52b7f7f918e43033ea1
